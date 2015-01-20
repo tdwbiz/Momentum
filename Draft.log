@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 JAN 2015 13:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 JAN 2015 15:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -252,23 +252,24 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `Draft.toc'.
 
- [3] <Lo20.jpg, id=19, 811.03pt x 403.5075pt>
-File: Lo20.jpg Graphic file (type jpg)
- <use Lo20.jpg>
-Package pdftex.def Info: Lo20.jpg used on input line 46.
-(pdftex.def)             Requested size: 421.73802pt x 209.8251pt.
+ [3] <Figures/01-Lo20.JPEG, id=19, 803.0pt x 401.5pt>
+File: Figures/01-Lo20.JPEG Graphic file (type jpg)
 
-Overfull \hbox (24.25302pt too wide) in paragraph at lines 46--47
+<use Figures/01-Lo20.JPEG>
+Package pdftex.def Info: Figures/01-Lo20.JPEG used on input line 46.
+(pdftex.def)             Requested size: 417.56241pt x 208.78119pt.
+
+Overfull \hbox (20.07741pt too wide) in paragraph at lines 46--47
  [][] 
  []
 
-<Hi20.jpg, id=20, 811.03pt x 403.5075pt>
-File: Hi20.jpg Graphic file (type jpg)
- <use Hi20.jpg>
-Package pdftex.def Info: Hi20.jpg used on input line 51.
-(pdftex.def)             Requested size: 421.73802pt x 209.8251pt.
+<Figures/02-Hi20.JPEG, id=20, 803.0pt x 401.5pt>
+File: Figures/02-Hi20.JPEG Graphic file (type jpg)
+ <use Figures/02-Hi20.JPEG>
+Package pdftex.def Info: Figures/02-Hi20.JPEG used on input line 51.
+(pdftex.def)             Requested size: 417.56241pt x 208.78119pt.
 
-Overfull \hbox (24.25302pt too wide) in paragraph at lines 51--52
+Overfull \hbox (20.07741pt too wide) in paragraph at lines 51--52
  [][] 
  []
 
@@ -278,10 +279,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[1] [2 <./Lo20.jpg> <./Hi20.jpg>] <Deciles.jpg, id=33, 433.62pt x 97.36375pt>
+[1] [2 <./Figures/01-Lo20.JPEG> <./Figures/02-Hi20.JPEG>]
+<Deciles.jpg, id=33, 433.62pt x 97.36375pt>
 File: Deciles.jpg Graphic file (type jpg)
-
-<use Deciles.jpg>
+ <use Deciles.jpg>
 Package pdftex.def Info: Deciles.jpg used on input line 59.
 (pdftex.def)             Requested size: 260.17401pt x 58.41869pt.
  [3 <./Deciles.jpg>] [4] [5] [6] [7] [8] [9]
@@ -441,8 +442,8 @@ Overfull \hbox (54.32521pt too wide) in paragraph at lines 382--392
 
 [26] [27] [28] [29] (./Draft.aux) ) 
 Here is how much of TeX's memory you used:
- 2409 strings out of 493117
- 34959 string characters out of 6135433
+ 2411 strings out of 493117
+ 35074 string characters out of 6135433
  104852 words of memory out of 5000000
  5831 multiletter control sequences out of 15000+600000
  9763 words of font info for 34 fonts, out of 8000000 for 9000
@@ -466,7 +467,7 @@ cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb>
-Output written on Draft.pdf (32 pages, 1331755 bytes).
+Output written on Draft.pdf (32 pages, 1336704 bytes).
 PDF statistics:
  201 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams
