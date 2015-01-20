@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Literature Review}{6}
+\contentsline {subsection}{\numberline {2.1}The Higher Transaction Costs of the Losing Portfolio}{7}
+\contentsline {subsection}{\numberline {2.2}Momentum Crashes}{8}
+\contentsline {section}{\numberline {3}Data Description and Methodology}{9}
+\contentsline {section}{\numberline {4}Momentum Funds}{10}
+\contentsline {subsection}{\numberline {4.1}Performance}{12}
+\contentsline {subsection}{\numberline {4.2}Characterizing the Strategies of Momentum Funds}{15}
+\contentsline {subsection}{\numberline {4.3}Estimating Transaction Costs}{16}
+\contentsline {section}{\numberline {5}Analysis of Market Betas}{17}
+\contentsline {subsection}{\numberline {5.1}The Crisis of 2008 and Momentum Betas}{18}
+\contentsline {subsection}{\numberline {5.2}The Effects of Bull and Bear Markets}{19}
+\contentsline {subsection}{\numberline {5.3}Betas and Momentum Funds}{22}
+\contentsline {section}{\numberline {6}Conclusion and Future Studies}{27}
