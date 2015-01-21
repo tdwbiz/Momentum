@@ -65,13 +65,26 @@ mom %>% select(c(1,11,13)) %>% melt(id.vars="Date", value.name="CumReturn") %>%
 #############################################################################################
 
 mom <- read.table("~/GitHub/Momentum/Data/10_Portfolios_Prior_12_2_year.txt", header=TRUE, quote="\"")
-mom$Date <- gsub('^([0-9]{4})([0-9]+)', '\\1-\\2-01', mom$Date)
 names(mom) <- c("Date","Low",as.character(2:9),"High")
 mkt <- read.table("~/GitHub/Momentum/Data/F-F_Research_Data_Factors_year.txt", header=TRUE, quote="\"")
-mkt$Date <- gsub('^([0-9]{4})([0-9]+)', '\\1-\\2-01', mkt$Date)
 
 mom <- inner_join(mkt, mom, by="Date")
+mom$WML <- mom$High - mom$Low
 rm(mkt)
 
-regL <- lm(Low~Mkt.RF+SMB+HML, data=mom)
-regH <- lm(High~Mkt.RF+SMB+HML, data=mom)
+mom %>% select(-c(2:5)) %>% 
+  melt(id.vars="Date", value.name="Return") %>%
+  ggplot(aes(variable, Return)) + geom_boxplot() + xlab("Portfolio")
+
+coeffs <- rep(NA, 11)
+for (i in 6:16) {
+  coeffs[i-5] <- lm(mom[,i]~mom$Mkt.RF+mom$SMB+mom$HML)$coeff[1]
+}
+coeffs
+
+for (i in 6:16) {
+  cat(names(mom)[i])
+  cat(": ")
+  cat(sd(mom[,i]))
+  cat("\n")
+}
